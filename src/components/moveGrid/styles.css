@@ -1,0 +1,11 @@
+.move-grid{
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 3px 15px 0pc rgba(0, 0, 0, 0.2);
+}
+.move-grid:hover{
+    transform: scale(1.05);
+}

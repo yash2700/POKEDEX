@@ -1,0 +1,76 @@
+.search-grid-item{
+    width: 30%;
+    border-radius: 20px;
+    padding:  1.5rem 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.search-grid-item:hover{
+        transform:scale(1.03);
+}
+.search-grid-item > img{
+    position: absolute;
+    right: -15px;
+}
+.grass,.normal,.unknown{
+    background-color: var(--green);
+    box-shadow: 0px 5px 20px -5px var(--green);
+}
+.fire,.dragon{
+    background-color: var(--red);
+    box-shadow: 0px 5px 20px -5px var(--red);
+
+}
+.water,.ice,.fairy,.ghost{
+    background-color: var(--blue);
+    box-shadow: 0px 5px 20px -5px var(--blue);
+
+}
+.electric,.psychic{
+    background-color: var(--yellow);
+    box-shadow: 0px 5px 20px -5px var(--yellow);
+
+}
+.poison,.shadow,.steel,.flying,.fighting,.dark{
+    background-color: var(--purple);
+    box-shadow: 0px 5px 20px -5px var(--purple);
+}
+.ground,.rock,.bug{
+    background-color: var(--brown);
+    box-shadow: 0px 5px 20px -5px var(--brown);
+
+}
+.lightgrass,.lightnormal,.lightunknown{
+    background-color: var(--light-green);
+    box-shadow: 0px 5px 20px -5px var(--light-green);
+}
+.lightfire,.lightdragon{
+    background-color: var(--light-red);
+    box-shadow: 0px 5px 20px -5px var(--light-red);
+
+}
+.lightwater,.lightice,.lightfairy,.lightghost{
+    background-color: var(--light-blue);
+    box-shadow: 0px 5px 20px -5px var(--light-blue);
+
+}
+.lightelectric,.lightpsychic{
+    background-color: var(--light-yellow);
+    box-shadow: 0px 5px 20px -5px var(--light-yellow);
+}
+.lightground,.lightrock,.lightbug{
+    background-color: var(--light-brown);
+    box-shadow: 0px 5px 20px -5px var(--light-brown);
+}
+.lightpoison,.lightshadow,.lightsteel,.lightflying,.lightfighting,.lightdark{
+    background-color: var(--light-purple);
+    box-shadow: 0px 5px 20px -5px var(--light-purple);
+}

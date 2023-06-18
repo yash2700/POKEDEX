@@ -1,0 +1,46 @@
+.grid-component{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    display: flex;
+    cursor: pointer;
+    gap: 0.8rem;
+    transition: all 0.3s ease-in-out;
+}
+.grid-component:hover{
+    transform: scale(1.03);
+}
+
+.grid-title{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.grid-type{
+    cursor: pointer;
+    width:70px;
+    /* border: 1px solid black; */
+    padding:0.5rem 1rem;    
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+.grid-type:hover{
+    transform: scale(1.04);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+.grid-right{
+    align-self: flex-end;
+    padding-bottom: 1rem;
+}
+.grid-right img{
+    width: 100px;
+    
+}

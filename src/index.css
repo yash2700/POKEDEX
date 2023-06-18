@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+  --green:#4ec3a6;
+  --red:#fa6c6d;
+  --blue:#56acf7;
+  --light-blue:#76bffe;
+  --yellow:#f7c439;
+  --light-yellow:#f7d36f;
+  --purple:#7c538d;
+  --brown:#b2756d;
+  --light-brown:#d98d83;
+  --light-red:#f5867e;
+  --light-green:#47d0b1;
+  --light-purple:#9e6db3;
+  
+}
+progress {
+  -webkit-appearance: none;
+  height: 3px !important;
+}
+::-webkit-progress-bar {
+  background-color: #afafaf;
+}
+.stat-red::-webkit-progress-value {
+  background-color: var(--red);
+}
+
+.stat-green::-webkit-progress-value {
+  background-color: var(--green);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +35,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 code {
